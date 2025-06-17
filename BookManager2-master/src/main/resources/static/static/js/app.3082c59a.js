@@ -1679,7 +1679,7 @@
                 o = a("4360"),
                 i = a("5f87"),
                 c = r.a.create({
-                    baseURL: "lkg-class-alb-440659137.ap-northeast-1.elb.amazonaws.com:8080/BookManager/",
+                    baseURL: "http://lkg-class-alb-260053268.ap-northeast-1.elb.amazonaws.com:8080/BookManager/",
                     timeout: 5e3
                 });
             c.interceptors.request.use((function(t) {
